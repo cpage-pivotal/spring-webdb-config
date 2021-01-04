@@ -1,0 +1,7 @@
+apiVersion: projectcontour.io/v1
+kind: HTTPProxy
+metadata:
+  name: hello
+spec:
+  virtualhost:
+    fqdn: webdb-dev.services.tkg.corby.cc
