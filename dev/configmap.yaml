@@ -1,6 +1,6 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: webdb
+  name: webdb-config
 data:
   spring.datasource.url: "jdbc:hsqldb:mem:testdb;DB_CLOSE_DELAY=-1"
