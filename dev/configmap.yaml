@@ -8,5 +8,5 @@ data:
   spring.datasource.password: petclinic
   web.tempHeader: Temperature
   web.pressureHeader: Pressure
-  web.bannerTextColor: DarkGoldenrod
+  web.bannerTextColor: "#304250"
   web.bannerText: Sensor Database
