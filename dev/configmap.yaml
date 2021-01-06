@@ -6,3 +6,7 @@ data:
   spring.datasource.url: "jdbc:mysql://mysql/petclinic"
   spring.datasource.username: petclinic
   spring.datasource.password: petclinic
+  web.tempHeader: Temperature
+  web.pressureHeader: Pressure
+  web.bannerTextColor: "#304250"
+  web.bannerText: Tanzu Sensor Database
