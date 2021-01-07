@@ -8,4 +8,6 @@ resources:
 configMapGenerator:
   - name: webdb-config
     literals:
-      - web.color=DarkSlateGray
+      - spring.datasource.url="jdbc:mysql://sensordb-mysql/sensors"
+      - spring.datasource.username=sensors
+      - spring.datasource.password=sensors
