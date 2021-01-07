@@ -8,5 +8,5 @@ data:
   spring.datasource.password: sensors
   web.tempHeader: Temperature
   web.pressureHeader: Pressure
-  web.bannerTextColor: "#304250"
-  web.bannerText: Sensor Database
+  web.bannerTextColor: Red
+  web.bannerText: Tanzu Sensor Database
