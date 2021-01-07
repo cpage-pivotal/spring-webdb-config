@@ -24,8 +24,8 @@ metadata:
     heritage: Helm
 type: Opaque
 data:
-  mysql-root-password: "cGV0Y2xpbmlj"
-  mysql-password: "cGV0Y2xpbmlj"
+  mysql-root-password: "c2Vuc29ycw=="
+  mysql-password: "c2Vuc29ycw=="
 ---
 # Source: mysql/templates/master-configmap.yaml
 apiVersion: v1
@@ -141,14 +141,14 @@ spec:
                   name: sensordb-mysql
                   key: mysql-root-password
             - name: MYSQL_USER
-              value: "petclinic"
+              value: "sensors"
             - name: MYSQL_PASSWORD
               valueFrom:
                 secretKeyRef:
                   name: sensordb-mysql
                   key: mysql-password
             - name: MYSQL_DATABASE
-              value: "petclinic"
+              value: "sensors"
           ports:
             - name: mysql
               containerPort: 3306
