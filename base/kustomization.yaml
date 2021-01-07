@@ -4,6 +4,7 @@ resources:
   - deployment.yaml
   - service.yaml
   - httpproxy.yaml
+  - mysql.yaml
 configMapGenerator:
   - name: webdb-config
     literals:
