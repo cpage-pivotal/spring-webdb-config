@@ -11,5 +11,3 @@ configMapGenerator:
       - spring.datasource.url="jdbc:mysql://sensordb-mysql/sensors"
       - spring.datasource.username=sensors
       - spring.datasource.password=sensors
-      - management.metrics.export.wavefront.uri=https://surf.wavefront.com
-      - management.metrics.export.wavefront.api-token=a02e7c33-cf9e-4fb5-ac2c-90859476d12f
