@@ -5,5 +5,5 @@ metadata:
 data:
   web.tempHeader: Temperature
   web.pressureHeader: Pressure
-  web.bannerTextColor: "#304250"
-  web.bannerText: Sensor Database
+  web.bannerTextColor: Blue
+  web.bannerText: Tanzu Sensor Database
