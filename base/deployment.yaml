@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: webdb
-          image: harbor.services.tkg.corby.cc/development/spring-webdb
+          image: harbor.contour.e2e.corby.cc/tanzu-e2e/spring-webdb
           imagePullPolicy: Always
           envFrom:
             - configMapRef:

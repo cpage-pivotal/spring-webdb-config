@@ -4,4 +4,4 @@ metadata:
   name: webdb
 spec:
   virtualhost:
-    fqdn: webdb-dev.services.tkg.corby.cc
+    fqdn: spring-webdb.contour.e2e.corby.cc
