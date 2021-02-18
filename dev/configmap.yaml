@@ -7,3 +7,6 @@ data:
   web.pressureHeader: Pressure
   web.bannerTextColor: DarkCyan
   web.bannerText: Tanzu Sensor Database
+  management.metrics.export.wavefront.api-token: 48b7b6a9-74ef-41f5-8002-f18dec9f82e2
+  management.metrics.export.wavefront.uri: https://vmware.wavefront.com
+  spring.application.name: sensor-database
